@@ -6,7 +6,8 @@ This tool was developed by **John Simonis** as part of the **GreyGoo** research 
 
 ![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/MeshMaker/demo_crosssection.png)
 
-*Note: This demo showcases a multi-material print prepared with MeshMaker. Featured is a pink PETG outer shell and a blue PLA inner shell. *
+***Note**: This demo showcases a multi-material print prepared with MeshMaker. Featured is a pink PETG outer shell and a blue PLA inner shell.*
+
 ---
 
 ### Requirements
