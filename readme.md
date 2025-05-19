@@ -2,6 +2,7 @@
 
 This tool was developed by **John Simonis** as part of the **GreyGoo** research project at **The Ohio State University**, supervised by **Dr. John LaRocco** and **Dr. Qudsia Tahmina**. MagnetometerApp is a cross-platform GUI app designed to interface with a custom Arduino-powered magnetic field scanner. It collects, logs, and visualizes full 3D magnetic field vector data from rotational samples using a QMC5883L magnetometer.
 
+![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/Media/Data/Plots/50percent_trial1/50percent_trial1_vector_field_mesh_shrink.png)
 ---
 
 ### Requirements
