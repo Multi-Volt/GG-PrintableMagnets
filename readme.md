@@ -50,7 +50,7 @@ The fabrication 3D printed magnets was conducted using a structured workflow. Be
 
 PLA shells were designed using **MeshMaker** CAD software (see the MeshMaker branch) and processed using **BambuSlicer** for toolpath generation. All shells were printed in a single batch using an FDM 3D printer with [Inland 1.75 mm PLA+ filament](https://www.microcenter.com/product/611538/inland-175mm-pla-3d-printer-filament-10-kg-(22-lbs)-spool-light-blue). This ensured consistent printing conditions and minimized inter-batch variability.
 
-**_place image here_**
+![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/Media/Images/printed_shells.jpg)
 
 ---
 
@@ -58,15 +58,15 @@ PLA shells were designed using **MeshMaker** CAD software (see the MeshMaker bra
 
 An empty plastic container was placed on a digital scale and tared to zero.
 
-**_place image here_**
+![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/Media/Images/empty_container.jpg)
 
 For each target weight percentage (wt%)—**10%, 30%, and 50%**—magnetite (Fe₃O₄) powder was weighed in approximate amounts of **10 g, 30 g, and 50 g**, respectively.
 
-**_place image here_**
+![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/Media/Images/50percent_magnetite.jpg)
 
 Once the magnetite was measured, **polyvinyl acetate (PVA) glue** was added until the total mass of the mixture reached approximately **100 g**. This approach maintained the desired magnetite-to-binder ratio for each wt% listed above.
 
-**_place image here_**
+![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/Media/Images/unmixed_magnetic_solution.jpg)
 
 ---
 
@@ -74,7 +74,7 @@ Once the magnetite was measured, **polyvinyl acetate (PVA) glue** was added unti
 
 The magnetite–PVA mixture was stirred manually until a **visually homogeneous** suspension was achieved. This step ensured an even distribution of magnetic particles within the polymer matrix.
 
-**_place image here_**
+![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/Media/Images/mixed_magnetic_solution.jpg)
 
 ---
 
@@ -82,7 +82,7 @@ The magnetite–PVA mixture was stirred manually until a **visually homogeneous*
 
 Once mixed, the composite solution was transferred into a **10 mL disposable syringe** for controlled injection into the PLA Shells.
 
-**_place image here_**
+![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/Media/Images/filling_syringe.jpg)
 
 ---
 
@@ -90,7 +90,7 @@ Once mixed, the composite solution was transferred into a **10 mL disposable syr
 
 The printed PLA+ shells were arranged on a **clean, flat working surface**, oriented with their fill ports facing upward to allow for easy injection.
 
-**_place image here_**
+![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/Media/Images/empty_shell.jpg)
 
 ---
 
@@ -98,7 +98,9 @@ The printed PLA+ shells were arranged on a **clean, flat working surface**, orie
 
 Using the preloaded syringe, the magnetic mixture was **injected into each PLA+ shell** until the cavity was fully filled. Care was taken to avoid air bubbles or overflow.
 
-**_place image here_**
+![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/Media/Images/filling_shell.jpg)
+
+![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/Media/Images/filled_shell.jpg)
 
 ---
 
@@ -106,7 +108,7 @@ Using the preloaded syringe, the magnetic mixture was **injected into each PLA+ 
 
 Two **N52-grade neodymium disc magnets** (1.26-inch diameter × ⅛-inch thickness) were placed on opposite sides of each filled shell to arrange the suspended magnetite crystals in the solution.
 
-**_place image here_**
+![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/Media/Images/setting_with_magnets.jpg)
 
 ---
 
@@ -114,7 +116,7 @@ Two **N52-grade neodymium disc magnets** (1.26-inch diameter × ⅛-inch thickne
 
 The above steps were repeated until **five complete samples** were prepared for each wt% grouping. Each sample was taped securely to prevent magnet displacement and placed in a **food dehydrator** set to **60 °C for 12 hours** to cure the PVA matrix.
 
-**_place image here_**
+![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/Media/Images/drying_magnets.jpg)
 
 ## 🛠 Testing Procedure
 
@@ -261,4 +263,5 @@ Each magnetic shell underwent multiple measurement trials. The key experimental 
 
 ### 8. Video Demo
 
-**_place video here_**
+[![CLICK ME](https://i3.ytimg.com/vi/pRHvHz7wCB8/maxresdefault.jpg)](https://youtu.be/pRHvHz7wCB8)
+
