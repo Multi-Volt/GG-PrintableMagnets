@@ -2,6 +2,8 @@
 
 This tool was developed by **John Simonis** as part of the **GreyGoo** research project at **The Ohio State University**, supervised by **Dr. John LaRocco** and **Dr. Qudsia Tahmina**. MeshMaker is a lightweight, cross-platform GUI tool that takes STL files and makes hollow mesh shells and solid mesh cores for physical experimentation and testing. This utility supports direct integration into workflows for constructing physical enclosures and embedding experimental materials such as magnetic compounds.
 
+![](https://github.com/Multi-Volt/GG-PrintableMagnets/blob/MeshMaker/GUI_cover_image.png)
+
 ---
 
 ### Requirements
