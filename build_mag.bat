@@ -16,10 +16,10 @@ if "%1"=="clean" (
 )
 
 :: === Build with pyinstaller from script dir ===
-echo [*] Building executable (folder-based distribution)...
+echo [*] Building executable (single-file distribution)...
 
 pyinstaller ^
-    --noconsole --clean --strip ^
+    --noconsole --clean --strip --onefile ^
     -n %EXEC_NAME% ^
     --distpath "%OUTPUT_DIR%" ^
     --workpath "%SCRIPT_DIR%build\pyinstaller_work" ^
@@ -27,8 +27,8 @@ pyinstaller ^
     "%SRC_DIR%\magnetic_logger_gui.py"
 
 :: === Verify build success ===
-if not exist "%OUTPUT_DIR%\%EXEC_NAME%" (
-    echo [✘] Build failed: %OUTPUT_DIR%\%EXEC_NAME% folder not found.
+if not exist "%OUTPUT_DIR%\%EXEC_NAME%.exe" (
+    echo [✘] Build failed: %OUTPUT_DIR%\%EXEC_NAME%.exe not found.
     exit /b 1
 )
 
@@ -36,8 +36,9 @@ if not exist "%OUTPUT_DIR%\%EXEC_NAME%" (
 mkdir "%OUTPUT_DIR%\licenses"
 copy "%SCRIPT_DIR%\licenses\*" "%OUTPUT_DIR%\licenses\" >nul
 
-echo [✔] Executable folder created: %OUTPUT_DIR%\%EXEC_NAME%
+echo [✔] Executable created: %OUTPUT_DIR%\%EXEC_NAME%.exe
 echo [✔] Licenses copied into %OUTPUT_DIR%
-echo [✔] Run with: %OUTPUT_DIR%\%EXEC_NAME%\%EXEC_NAME%.exe
+echo [✔] Run with: "%OUTPUT_DIR%\%EXEC_NAME%.exe"
 
 endlocal
+

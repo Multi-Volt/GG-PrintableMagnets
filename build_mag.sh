@@ -17,7 +17,7 @@ fi
 # === Build with pyinstaller from script dir ===
 echo "[*] Building executable (folder-based distribution)..."
 pyinstaller \
-    --noconsole --clean --strip \
+    --noconsole --clean --strip --onefile\
     -n "$EXEC_NAME" \
     --distpath "$OUTPUT_DIR" \
     --workpath "$SCRIPT_DIR/build/pyinstaller_work" \
@@ -25,8 +25,8 @@ pyinstaller \
     "$SRC_DIR/magnetic_logger_gui.py"
 
 # === Verify build success ===
-if [[ ! -d "$OUTPUT_DIR/$EXEC_NAME" ]]; then
-    echo "[✘] Build failed: $OUTPUT_DIR/$EXEC_NAME folder not found."
+if [[ ! -f "$OUTPUT_DIR/$EXEC_NAME" ]]; then
+    echo "[✘] Build failed: $OUTPUT_DIR/$EXEC_NAME executable not found."
     exit 1
 fi
 
@@ -34,7 +34,7 @@ fi
 mkdir -p "$OUTPUT_DIR/licenses"
 cp "$SCRIPT_DIR/licenses/"* "$OUTPUT_DIR/licenses/"
 
-echo "[✔] Executable folder created: $OUTPUT_DIR/$EXEC_NAME"
+echo "[✔] Executable created: $OUTPUT_DIR/$EXEC_NAME"
 echo "[✔] Licenses copied into $OUTPUT_DIR/"
-echo "[✔] Run with: $OUTPUT_DIR/$EXEC_NAME/$EXEC_NAME"
+echo "[✔] Run with: $OUTPUT_DIR/$EXEC_NAME"
 
