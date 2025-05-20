@@ -134,7 +134,7 @@ The magnetic scanner was built around the following core hardware components:
 * **Custom-built PLA turntable**, supported by three **608-style skateboard bearings**
 * **Stainless steel 304 threaded rod (M5 x 200 mm)** for vertical positioning of the sensor
 * **5 mm to 8 mm aluminum shaft coupler** to secure the sensor rod to a static base
-* **PLA-printed alignment crosshair** made from painter’s tape for consistent sample positioning
+* **Painter's tape alignment crosshair** for consistent sample positioning
 
 This configuration allowed for full 360° magnetic vector field data acquisition around the samples, with adjustable sensor height and a fixed radial offset from the sample.
 
