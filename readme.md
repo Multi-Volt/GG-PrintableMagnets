@@ -83,7 +83,7 @@ Features of the GUI include:
 * Trial logging and export
 * 3D data visualization
 
-Alternatively, if you had just build the app you could launch the app with:
+Alternatively, if you had just built the app you could launch the app with:
 
 ```bash
 ./build/magnetic_imager/magnetic_logger_gui/magnetic_logger_gui
