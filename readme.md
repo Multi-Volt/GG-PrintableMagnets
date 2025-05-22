@@ -86,7 +86,8 @@ Features of the GUI include:
 Alternatively, if you had just built the app you could launch the app with:
 
 ```bash
-./build/magnetic_imager/magnetic_logger_gui/magnetic_logger_gui
+./build/magnetic_imager/magnetic_logger_gui/magnetic_logger_gui # For Linux
+.\build\magnetic_imager\magnetic_logger_gui\magnetic_logger_gui.exe # For Windows
 ```
 ---
 
