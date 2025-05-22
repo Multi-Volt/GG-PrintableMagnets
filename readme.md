@@ -63,7 +63,7 @@ chmod +x build_mag.sh
 build_mag.bat
 ```
 
-Note: macOS is not officially tested or supported at this time but this could work on that platform.
+Note: macOS is not officially tested or supported at this time but this should work on that platform.
 
 ---
 
